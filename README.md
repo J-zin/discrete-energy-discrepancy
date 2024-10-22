@@ -15,8 +15,8 @@ by [Tobias Schröder](https://tobias-schroeder.github.io/), [Zijing Ou](https://
 ## Experiments
 
 We provide the code for different settings under different branches:
-- The [`main`](https://github.com/J-zin/discrete-energy-discrepancy) branch contains the experiment of tabular data modelling at section 6.2.
 - The [`density_estimation`](https://github.com/J-zin/discrete-energy-discrepancy/tree/density_estimation) branch contains the experiment of discrete density estimation at section 6.1.
+- The [`tabular_modelling`](https://github.com/J-zin/discrete-energy-discrepancy/tree/tabular_modelling) branch contains the experiment of tabular data modelling at section 6.2.
 - The [`image_modelling`](https://github.com/J-zin/discrete-energy-discrepancy/tree/image_modelling) branch contains the experiment of image data modelling at section 6.3.
 
 Please also check [this repository](https://github.com/J-zin/energy-discrepancy) for the code of [continuous energy discrepancy](https://openreview.net/pdf?id=1qFnxhdbxg)!!!
