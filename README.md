@@ -1,1 +1,1 @@
-This branch contains the code for tabular data modelling at section 6.2.
+This branch contains the code for image modelling at section 6.3.
