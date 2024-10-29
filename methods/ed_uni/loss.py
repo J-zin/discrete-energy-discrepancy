@@ -19,13 +19,13 @@ def perturb_categorical(samples, args, t=.1, m_particles=32):
 
     uniform_noise = torch.rand((bs, C), device = device)
     scaled_noise = torch.einsum('bc, c -> bc', uniform_noise, num_classes).int()
-    corrupt_mask = torch.rand((bs, C)).to(samples.device) < (1 - t)
+    corrupt_mask = torch.rand((bs, C)).to(samples.device) > np.exp(-t)
     y[corrupt_mask] = scaled_noise[corrupt_mask]
 
     neg_samples = y.unsqueeze(1).expand(bs, m_particles, -1).clone()
     uniform_noise = torch.rand((bs, m_particles, C), device = device)
     scaled_noise = torch.einsum('bmc, c -> bmc', uniform_noise, num_classes).int()
-    corrupt_mask = torch.rand((bs, m_particles, C)).to(samples.device) < (1 - t)
+    corrupt_mask = torch.rand((bs, m_particles, C)).to(samples.device) > np.exp(-t)
     neg_samples[corrupt_mask] = scaled_noise[corrupt_mask]
 
     return neg_samples
