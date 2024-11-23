@@ -1,0 +1,220 @@
+{
+    "name": "churn",
+    "task_type": "binclass",
+    "header": "infer",
+    "column_names": [
+        "gender",
+        "SeniorCitizen",
+        "Partner",
+        "Dependents",
+        "tenure",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "OnlineSecurity",
+        "OnlineBackup",
+        "DeviceProtection",
+        "TechSupport",
+        "StreamingTV",
+        "StreamingMovies",
+        "Contract",
+        "PaperlessBilling",
+        "PaymentMethod",
+        "MonthlyCharges",
+        "TotalCharges",
+        "Churn"
+    ],
+    "num_col_idx": [
+        4,
+        17,
+        18
+    ],
+    "cat_col_idx": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+    ],
+    "target_col_idx": [
+        19
+    ],
+    "file_type": "csv",
+    "data_path": "data/churn/churn.csv",
+    "test_path": null,
+    "column_info": {
+        "4": {},
+        "type": "categorical",
+        "max": 8684.8,
+        "min": 18.8,
+        "17": {},
+        "18": {},
+        "0": {},
+        "categorizes": [
+            "Yes",
+            "No"
+        ],
+        "1": {},
+        "2": {},
+        "3": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "19": {}
+    },
+    "train_num": 6338,
+    "test_num": 705,
+    "idx_mapping": {
+        "0": 3,
+        "1": 4,
+        "2": 5,
+        "3": 6,
+        "4": 0,
+        "5": 7,
+        "6": 8,
+        "7": 9,
+        "8": 10,
+        "9": 11,
+        "10": 12,
+        "11": 13,
+        "12": 14,
+        "13": 15,
+        "14": 16,
+        "15": 17,
+        "16": 18,
+        "17": 1,
+        "18": 2,
+        "19": 19
+    },
+    "inverse_idx_mapping": {
+        "3": 0,
+        "4": 1,
+        "5": 2,
+        "6": 3,
+        "0": 4,
+        "7": 5,
+        "8": 6,
+        "9": 7,
+        "10": 8,
+        "11": 9,
+        "12": 10,
+        "13": 11,
+        "14": 12,
+        "15": 13,
+        "16": 14,
+        "17": 15,
+        "18": 16,
+        "1": 17,
+        "2": 18,
+        "19": 19
+    },
+    "idx_name_mapping": {
+        "0": "gender",
+        "1": "SeniorCitizen",
+        "2": "Partner",
+        "3": "Dependents",
+        "4": "tenure",
+        "5": "PhoneService",
+        "6": "MultipleLines",
+        "7": "InternetService",
+        "8": "OnlineSecurity",
+        "9": "OnlineBackup",
+        "10": "DeviceProtection",
+        "11": "TechSupport",
+        "12": "StreamingTV",
+        "13": "StreamingMovies",
+        "14": "Contract",
+        "15": "PaperlessBilling",
+        "16": "PaymentMethod",
+        "17": "MonthlyCharges",
+        "18": "TotalCharges",
+        "19": "Churn"
+    },
+    "metadata": {
+        "columns": {
+            "4": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "17": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "18": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "0": {
+                "sdtype": "categorical"
+            },
+            "1": {
+                "sdtype": "categorical"
+            },
+            "2": {
+                "sdtype": "categorical"
+            },
+            "3": {
+                "sdtype": "categorical"
+            },
+            "5": {
+                "sdtype": "categorical"
+            },
+            "6": {
+                "sdtype": "categorical"
+            },
+            "7": {
+                "sdtype": "categorical"
+            },
+            "8": {
+                "sdtype": "categorical"
+            },
+            "9": {
+                "sdtype": "categorical"
+            },
+            "10": {
+                "sdtype": "categorical"
+            },
+            "11": {
+                "sdtype": "categorical"
+            },
+            "12": {
+                "sdtype": "categorical"
+            },
+            "13": {
+                "sdtype": "categorical"
+            },
+            "14": {
+                "sdtype": "categorical"
+            },
+            "15": {
+                "sdtype": "categorical"
+            },
+            "16": {
+                "sdtype": "categorical"
+            },
+            "19": {
+                "sdtype": "categorical"
+            }
+        }
+    }
+}

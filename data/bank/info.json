@@ -1,0 +1,197 @@
+{
+    "name": "bank",
+    "task_type": "binclass",
+    "header": "infer",
+    "column_names": [
+        "age",
+        "job",
+        "marital",
+        "education",
+        "default",
+        "balance",
+        "housing",
+        "loan",
+        "contact",
+        "day",
+        "month",
+        "duration",
+        "campaign",
+        "pdays",
+        "previous",
+        "poutcome",
+        "y"
+    ],
+    "num_col_idx": [
+        0,
+        5,
+        9,
+        11,
+        12,
+        13,
+        14
+    ],
+    "cat_col_idx": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        15
+    ],
+    "target_col_idx": [
+        16
+    ],
+    "file_type": "csv",
+    "data_path": "data/bank/bank.csv",
+    "test_path": null,
+    "column_info": {
+        "0": {},
+        "type": "categorical",
+        "max": 275.0,
+        "min": 0.0,
+        "5": {},
+        "9": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "1": {},
+        "categorizes": [
+            "yes",
+            "no"
+        ],
+        "2": {},
+        "3": {},
+        "4": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "10": {},
+        "15": {},
+        "16": {}
+    },
+    "train_num": 40689,
+    "test_num": 4522,
+    "idx_mapping": {
+        "0": 0,
+        "1": 7,
+        "2": 8,
+        "3": 9,
+        "4": 10,
+        "5": 1,
+        "6": 11,
+        "7": 12,
+        "8": 13,
+        "9": 2,
+        "10": 14,
+        "11": 3,
+        "12": 4,
+        "13": 5,
+        "14": 6,
+        "15": 15,
+        "16": 16
+    },
+    "inverse_idx_mapping": {
+        "0": 0,
+        "7": 1,
+        "8": 2,
+        "9": 3,
+        "10": 4,
+        "1": 5,
+        "11": 6,
+        "12": 7,
+        "13": 8,
+        "2": 9,
+        "14": 10,
+        "3": 11,
+        "4": 12,
+        "5": 13,
+        "6": 14,
+        "15": 15,
+        "16": 16
+    },
+    "idx_name_mapping": {
+        "0": "age",
+        "1": "job",
+        "2": "marital",
+        "3": "education",
+        "4": "default",
+        "5": "balance",
+        "6": "housing",
+        "7": "loan",
+        "8": "contact",
+        "9": "day",
+        "10": "month",
+        "11": "duration",
+        "12": "campaign",
+        "13": "pdays",
+        "14": "previous",
+        "15": "poutcome",
+        "16": "y"
+    },
+    "metadata": {
+        "columns": {
+            "0": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "5": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "9": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "11": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "12": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "13": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "14": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "1": {
+                "sdtype": "categorical"
+            },
+            "2": {
+                "sdtype": "categorical"
+            },
+            "3": {
+                "sdtype": "categorical"
+            },
+            "4": {
+                "sdtype": "categorical"
+            },
+            "6": {
+                "sdtype": "categorical"
+            },
+            "7": {
+                "sdtype": "categorical"
+            },
+            "8": {
+                "sdtype": "categorical"
+            },
+            "10": {
+                "sdtype": "categorical"
+            },
+            "15": {
+                "sdtype": "categorical"
+            },
+            "16": {
+                "sdtype": "categorical"
+            }
+        }
+    }
+}
